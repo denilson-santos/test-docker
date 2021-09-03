@@ -1,0 +1,14 @@
+{
+  "name": "test-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/denilson-santos/test-docker.git",
+  "author": "Denilson da Silva Santos <denilson.silvasantos.contato@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
