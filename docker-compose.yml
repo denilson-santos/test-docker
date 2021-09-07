@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   app:
     build: .
@@ -6,11 +5,3 @@ services:
       - "3333:3333"
     volumes:
       - .:/home/node/app
-    depends:
-      - db
-  db:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: 123456
